@@ -12,6 +12,6 @@ import numpy as np
 a = range(10000000)
 
 #print(np.shape(a))
-time.sleep(60)
+time.sleep(30)
 
 np.savetxt('a.txt', a)
